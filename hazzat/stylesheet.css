@@ -1,0 +1,1135 @@
+body {
+    font-family: "helvetica neue", helvetica, arial, verdana, sans-serif;
+    background: #202020;
+    color: #ebdfed;
+}
+.usertext a, body a, .thing .title {
+    color: #EB466C;
+}
+.thing .title:visited {
+    color: #892139;
+}
+#header-bottom-left {
+    height: 64px;
+    background: url(%%header-bg%%) center
+}
+#header-bottom-right {
+    background: black
+}
+#userbarToggle {
+    background: #202020!important;
+    border-radius: 4px 0px 0px 4px!important;
+    border: none!important;
+    color: #ebdfed!important
+}
+#mail {
+    min-width: 15px!important
+}
+#mail.nohavemail {
+    background-image: url(%%inbox%%);
+    background-position: 0px 0px;
+    min-width: 15px!important
+}
+#mail.havemail {
+    background-image: url(%%inbox%%);
+    background-position: -15px 0px;
+    min-width: 15px!important
+}
+.message-count {
+    background-color: #EB466C
+}
+#header {
+    border-bottom: 22px solid black;
+    background-color: black
+}
+#header-img {
+    margin: 0
+}
+.pagename a {
+    font-size: 0px;
+    margin: 0px auto;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 20px;
+    height: 64px;
+    width: 320px;
+    background: url(%%animated-logo%%) no-repeat -1600px 0px;
+    -webkit-animation: worlds 0.5s steps(12) 1;
+    animation: worlds 0.5s steps(12) 1
+}
+@-webkit-keyframes worlds {
+    from {
+        background-position: -8960px
+    }
+    to {
+        background-position: -1280px
+    }
+}
+@keyframes worlds {
+    from {
+        background-position: -8960px
+    }
+    to {
+        background-position: -1280px
+    }
+}
+@-webkit-keyframes face {
+    from {
+        background-position: -1920px
+    }
+    to {
+        background-position: -8000px
+    }
+}
+@keyframes face {
+    from {
+        background-position: -1920px
+    }
+    to {
+        background-position: -8000px
+    }
+}
+.pagename a:hover {
+    -webkit-animation: face 0.5s steps(19) 1;
+    animation: face 0.5s steps(19) 1;
+    background-position: -8320px 0px
+}
+#sr-header-area {
+    background-color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black
+}
+#sr-more-link {
+    background-color: black;
+    color: #ebdfed
+}
+.dropdown.srdrop .selected {
+    color: #EB466C
+}
+.sr-bar a {
+    color: #EB466C
+}
+.drop-choices,
+#srList {
+    background-color: #202020!important;
+    border-top: none
+}
+.drop-choices a.choice:hover,
+{
+    background-color: #EB4667;
+    color: #202020
+}
+#srList tr:hover {
+    background-color: #892139!important
+}
+#RESShortcutsEditContainer {
+    background-color: #202020!important
+}
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background: none!important;
+    color: #EB466C!important
+}
+.tabmenu {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase
+}
+.tabmenu li a {
+    padding: 0px 6px 0 6px;
+    background-color: black;
+    color: whitesmoke
+}
+.tabmenu li.selected a,
+.tabmenu li a:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: none
+}
+.thumbnail {
+    height: 70px;
+    padding-top: 4px;
+    margin-left: 15px
+}
+.thumbnail.default,
+.thumbnail.self {
+    margin-top: 15px;
+    background: url(%%thumbnail-self%%) no-repeat
+}
+.thumbnail.self {
+    background-position: 0px -50px
+}
+.thumbnail.default {
+    background-position: 0px 0px
+}
+a img {
+    border-radius: 15px
+}
+.link {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black
+}
+.link .rank {
+    visibility: hidden
+}
+.stickied.link {
+    background-image: url(%%stickied%%);
+    height: 80px;
+    border-radius: 10px
+}
+.link .entry {
+    padding: 15px 20px 14px
+}
+.reported-stamp,
+.report-reasons {
+    color: black
+}
+.RESDialogSmall.livePreview>h3 {
+    background: black url(%%stickied%%);
+    color: whitesmoke
+}
+.usertext-edit .RESDialogSmall .md.RESDialogContents {
+    background-color: transparent!important
+}
+.comment.entry {
+    padding: 5px 5px 5px
+}
+.expando-button.collapsed,
+.expando-button.collapsed:hover {
+    background: url(%%expand-buttons%%) 0 0 !important
+}
+.expando-button.collapsed:hover,
+.expando-button.expanded:hover {
+    cursor: pointer !important
+}
+.expando-button.expanded,
+.expando-button.expanded:hover {
+    background: url(%%expand-buttons%%) -23px 0 !important
+}
+.link .usertext-body .md {
+    background-color: black;
+    border: none
+}
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background: transparent url(%%active-element%%) no-repeat right!important
+}
+.res .commentarea .RES-keyNav-activeElement .md {
+    background-color: black!important;
+    border: solid 1px #eb466c;
+    padding: 5px;
+}
+.comment {
+    background-color: black !important;
+}
+.side {
+    background-color: transparent;
+    right: 0;
+    background-color: black;
+    padding: 310px 9px 0px 9px;
+    margin: 0 0 0 6px
+}
+.morelink {
+    font-weight: normal;
+    letter-spacing: 0;
+    background: #EB466C;
+    border: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 145px
+}
+.morelink:hover {
+    background: #ebdfed;
+    -webkit-transition: background-color 0.15s ease
+}
+.morelink:active {
+    background-color: #892139
+}
+.morelink .nub {
+    display: none
+}
+.morelink a {
+    color: #ebdfed
+}
+.sidebox.submit-link .morelink {
+    display: block;
+    clear: none
+}
+.sidebox.submit .morelink a {
+    position: absolute;
+    text-align: center;
+    color: #ebdfed;
+    font-size: 95%
+}
+.sidebox.submit .morelink a:hover {
+    color: #EB466C
+}
+.sidebox.submit.submit-link {
+    width: 150px
+}
+.sidebox.submit.submit-text {
+    margin-top: -42px;
+    margin-left: 155px
+}
+.sidebox.submit.submit-text a {
+    font-size: 90%!important
+}
+.sidebox.create {
+    display: none
+}
+.sidebox.submit.disabled {
+    display: none
+}
+.side .redditname a {
+    font-size: 0px;
+    height: 0px
+}
+.titlebox h1 {
+    font-size: 0px;
+    margin-bottom: 0px
+}
+.linkinfo {
+    border: 1px solid black;
+    background: url(%%stickied%%)
+}
+.fancy-toggle-button {
+    width: 100%;
+    max-width: 300px
+}
+.fancy-toggle-button .add {
+    padding: 4px 126px 4px 127px;
+    background: #EB466C none;
+    border-radius: 2px
+}
+.fancy-toggle-button .active {
+    border: none
+}
+.fancy-toggle-button .remove {
+    padding: 3px 120px 3px 121px;
+    background: #202020 url(%%stickied%%) 0 1px
+}
+.subButtons {
+    text-align: center!important;
+    padding-bottom: 8px!important
+}
+.RESshortcutside,
+.RESDashboardToggle {
+    background-image: none!important;
+    background-color: #EB466C!important;
+    border: none!important;
+    padding: 1px 41px!important
+}
+.RESDashboardToggle {
+    margin-right: 0px!important
+}
+.RESshortcutside.remove,
+.RESDashboardToggle.remove {
+    background: url(%%stickied%%)!important;
+    background-position: -13px 0px!important
+}
+.icon-menu a,
+.titlebox form.toggle,
+.leavemoderator {
+    background-color: transparent;
+    padding: 10px 30px 0 40px
+}
+.titlebox form.flairtoggle {
+    font-size: 0px
+}
+.titlebox form.flairtoggle:after {
+    content: "Find the kaomoji that's right for you:";
+    font-size: 10px!important
+}
+.titlebox .tagline {
+    padding: 0 0 12px 60px
+}
+.subscribers {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 23px;
+    width: 300px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+.users-online {
+    width: 225px;
+    text-align: center
+}
+.side h1 a {
+    color: #ebdfed;
+    text-align: center!important
+}
+.side h1 {
+    background: -webkit-linear-gradient(left, #EB466C, transparent)
+}
+#search input[type=text] {
+    background-color: black;
+    color: #ebdfed !important;
+    border: 1px dotted #ebdfed
+}
+#searchexpando {
+    background: #202020 url(%%stickied%%) -2px 1px;
+    border: 1px solid black
+}
+div.titlebox span.word {
+    display: none
+}
+div.titlebox .subscribers span.number:after {
+    content: " sad machines"
+}
+div.titlebox .users-online span.number:after {
+    content: " awakened again"
+}
+.users-online:before {
+    background-image: url(%%online-users%%);
+    background-position: 0 0;
+    margin-left: 90px
+}
+.flair {
+    background: none;
+    border: none;
+    color: #ebdfed
+}
+.flairselector li,
+.flairselector li:hover {
+    border: none;
+    background-color: transparent
+}
+.flairselector li.selected {
+    border: dashed 1px #ebdfed
+}
+.flairselector h2 {
+    background-color: #EB466C;
+    color: #202020
+}
+.md, .md blockquote, .sidecontentbox .title h1 {
+    color: whitesmoke!important
+}
+.side .md table {
+    font-size: 11px
+}
+.md th {
+    padding: 3px 8px;
+    font-weight: normal!important;
+    cursor: default!important
+}
+.md td,
+.md th {
+    border: 1px solid #D1B2BA
+}
+body>.content .link .midcol {
+    width: 32px!important;
+    margin-top: 10px
+}
+.gadget .midcol {
+    width: 32px
+}
+.gadget .entry {
+    padding: 15px 10px 14px
+}
+.link .score.likes {
+    color: #EB466C
+}
+.link .score.dislikes {
+    color: #925653
+}
+.link .rank {
+    margin-top: 30px
+}
+.tagline a {
+    color: #925653
+}
+.tagline .submitter {
+    color: #EB466C
+}
+.arrow {
+    background-image: url(%%arrow%%);
+    width: 32px;
+    height: 16px;
+    margin: 2px 0px 2px 0px
+}
+.arrow.up {
+    background-image: url(%%arrow%%);
+    background-position: 0 0
+}
+.arrow.upmod {
+    background-image: url(%%arrow%%);
+    background-position: -64px 0
+}
+.arrow.down {
+    background-image: url(%%arrow%%);
+    background-position: -32px 0
+}
+.arrow.downmod {
+    background-image: url(%%arrow%%);
+    background-position: -96px 0
+}
+.comment .arrow.up {
+    background-image: url(%%comment-arrow%%);
+    background-position: 0px 0px
+}
+.comment .arrow.down {
+    background-image: url(%%comment-arrow%%);
+    background-position: -16px 0px
+}
+.comment .arrow.upmod {
+    background-image: url(%%comment-arrow%%);
+    background-position: -32px 0px
+}
+.comment .arrow.downmod {
+    background-image: url(%%comment-arrow%%);
+    background-position: -48px 0px
+}
+.comment .arrow {
+    height: 8px
+}
+.new-comment .usertext-body {
+    background-color: black;
+    border: 1px dotted #ebdfed
+}
+.comment {
+    background-color: transparent!important
+}
+.res-commentBoxes .comment,
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: transparent!important;
+    border: none!important;
+    border-left: 1px dotted whitesmoke!important
+}
+.linefield,
+.roundfield,
+.content.submit .info-notice {
+    background-color: #202020 !important;
+    box-shadow: black 1px 1px 1px 1px;
+    border: none
+}
+.formtabs-content {
+    border-top: 2px solid #EB466C;
+    width: 517px
+}
+.infobar {
+    background: black url(%%stickied%%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 1px 1px
+}
+ul.tabmenu.formtab {
+    text-align: left;
+    padding-left: 0px
+}
+.tabmenu.formtab a {
+    padding: 0px 113px
+}
+.tabmenu.formtab .selected a {
+    background-color: #EB466C
+}
+.side a[href|="http://fb.com/porterrobinsonmusic"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) 0px 0px;
+    display: inline-block;
+    cursor: pointer
+}
+.side .md p:nth-of-type(1) {
+    text-align: center
+}
+.side a[href|="https://twitter.com/porterrobinson"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -42px 0px;
+    display: inline-block
+}
+.side a[href|="https://soundcloud.com/porter-robinson"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -84px 0px;
+    display: inline-block
+}
+.side a[href|="https://goo.gl/jzAOdr"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -126px 0px;
+    display: inline-block
+}
+.side a[href|="https://goo.gl/jzAOdr"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -168px 0px;
+    display: inline-block
+}
+.side a[href|="https://goo.gl/Eipbsp"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -210px 0px;
+    display: inline-block
+}
+.side a[href|="https://goo.gl/Zt7NpK"] {
+    color: transparent;
+    font-size: 0px;
+    width: 42px;
+    height: 42px;
+    background: url(%%social%%) -252px 0px;
+    display: inline-block
+}
+.footer-parent {
+    background-image: url(%%footer-bg%%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    /* bottom: -24px */
+    bottom: -36px
+}
+.footer.rounded {
+    margin-bottom: 30px
+}
+.bottommenu {
+    color: whitesmoke;
+    text-shadow: black 0px 1px 1px;
+    padding-bottom: 4px
+}
+.bottommenu > a[href="https://www.reddit.com/help/useragreement"], .bottommenu > a[href="https://www.reddit.com/help/privacypolicy"] {
+    color: #c8c1c1;
+}
+input[name=uh] ~ a:after,
+.user .login-required:after {
+    position: absolute;
+    top: 93px;
+    right: 10px;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    border: 0;
+    overflow: hidden
+}
+input[name=uh][value^="0"] ~ a:after {
+    content: url(%%porter-design-0%%)
+}
+input[name=uh][value^="1"] ~ a:after {
+    content: url(%%porter-design-1%%)
+}
+input[name=uh][value^="2"] ~ a:after {
+    content: url(%%porter-design-2%%)
+}
+input[name=uh][value^="3"] ~ a:after {
+    content: url(%%porter-design-3%%)
+}
+input[name=uh][value^="4"] ~ a:after {
+    content: url(%%porter-design-4%%)
+}
+input[name=uh][value^="5"] ~ a:after {
+    content: url(%%porter-design-5%%)
+}
+input[name=uh][value^="6"] ~ a:after {
+    content: url(%%porter-design-6%%)
+}
+input[name=uh][value^="7"] ~ a:after {
+    content: url(%%porter-design-7%%)
+}
+input[name=uh][value^="8"] ~ a:after {
+    content: url(%%porter-design-8%%)
+}
+input[name=uh][value^="9"] ~ a:after {
+    content: url(%%porter-design-9%%)
+}
+input[name=uh][value^="a"] ~ a:after {
+    content: url(%%porter-design-a%%)
+}
+input[name=uh][value^="b"] ~ a:after {
+    content: url(%%porter-design-b%%)
+}
+input[name=uh][value^="c"] ~ a:after {
+    content: url(%%porter-design-c%%)
+}
+input[name=uh][value^="d"] ~ a:after {
+    content: url(%%porter-design-d%%)
+}
+input[name=uh][value^="e"] ~ a:after {
+    content: url(%%porter-design-e%%)
+}
+input[name=uh][value^="f"] ~ a:after {
+    content: url(%%porter-design-f%%)
+}
+input[name=uh][value^="g"] ~ a:after {
+    content: url(%%porter-design-g%%)
+}
+input[name=uh][value^="h"] ~ a:after {
+    content: url(%%porter-design-h%%)
+}
+input[name=uh][value^="i"] ~ a:after {
+    content: url(%%porter-design-i%%)
+}
+input[name=uh][value^="j"] ~ a:after {
+    content: url(%%porter-design-j%%)
+}
+input[name=uh][value^="k"] ~ a:after {
+    content: url(%%porter-design-k%%)
+}
+input[name=uh][value^="l"] ~ a:after {
+    content: url(%%porter-design-l%%)
+}
+input[name=uh][value^="m"] ~ a:after {
+    content: url(%%porter-design-m%%)
+}
+input[name=uh][value^="n"] ~ a:after {
+    content: url(%%porter-design-n%%)
+}
+input[name=uh][value^="o"] ~ a:after {
+    content: url(%%porter-design-o%%)
+}
+input[name=uh][value^="p"] ~ a:after {
+    content: url(%%porter-design-p%%)
+}
+input[name=uh][value^="q"] ~ a:after {
+    content: url(%%porter-design-q%%)
+}
+input[name=uh][value^="r"] ~ a:after {
+    content: url(%%porter-design-r%%)
+}
+input[name=uh][value^="s"] ~ a:after {
+    content: url(%%porter-design-1%%)
+}
+input[name=uh][value^="t"] ~ a:after {
+    content: url(%%porter-design-2%%)
+}
+input[name=uh][value^="u"] ~ a:after {
+    content: url(%%porter-design-3%%)
+}
+input[name=uh][value^="v"] ~ a:after {
+    content: url(%%porter-design-4%%)
+}
+input[name=uh][value^="w"] ~ a:after {
+    content: url(%%porter-design-5%%)
+}
+input[name=uh][value^="x"] ~ a:after {
+    content: url(%%porter-design-6%%)
+}
+input[name=uh][value^="y"] ~ a:after {
+    content: url(%%porter-design-7%%)
+}
+input[name=uh][value^="z"] ~ a:after {
+    content: url(%%porter-design-8%%)
+}
+.user .login-required:after {
+    content: url(%%porter-design-0%%)
+}
+#header-bottom-right {
+    position: absolute;
+    right: 0px;
+    top: 19px;
+    padding: 4px 4px 4px 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 7px;
+    line-height: 12px;
+    height: 15px
+}
+.user {
+    color: #ebdfed
+}
+.side .usertext-body h5:last-of-type a {
+    position: absolute;
+    top: 112px;
+    right: 10px;
+    width: 300px;
+    height: 300px;
+    z-index: 100;
+    border: 0px;
+    font-size: 0px
+}
+.locked-infobar .md, .markhelp .md > tbody > tr:nth-of-type(1), .md code {
+    color: gray!important;
+}
+.nextprev {
+    float: right;
+}
+.side .md ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+.side .md ol > li > p {
+    text-align: left !important;
+}
+.RES-keyNav-activeElement form, .may-blank-within {
+    background: transparent !important;
+}
+.single-page .stickied.link {
+    height: auto;
+}
+.stickied.link .expando-button {
+    display: none;
+}
+
+/* flairs - not part of Hazzat's original design */
+
+.linkflair-one .linkflairlabel {
+    background-color: #add5ab;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: LightSlateGray;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-two .linkflairlabel {
+    background-color: #A0B9F2;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: MidnightBlue;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-three .linkflairlabel {
+    background-color: #F5B3B7;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: Tomato;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-four .linkflairlabel {
+    background-color: #F3F5B3;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: YellowGreen;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-five .linkflairlabel {
+    background-color: #B3EDF5;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: Indigo;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-six .linkflairlabel {
+    background-color: #F5B3F5;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: MediumOrchid;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-seven .linkflairlabel {
+    background-color: #FFA05C;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: Maroon;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-eight .linkflairlabel {
+    background-color: #D1D1D1;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: SpringGreen;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-nine .linkflairlabel {
+    background-color: #4A4AFF;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: #000000;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-ten .linkflairlabel {
+    background-color: #FFDD00;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: #000000;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-eleven .linkflairlabel {
+    background-color: #FF0000;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: Fuchsia;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twelve .linkflairlabel {
+    background-color: #AA00FF;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: GhostWhite;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-fifteen .linkflairlabel {
+    background-color: #5EFF1F;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: #000000;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-thirteen .linkflairlabel {
+    background-color: #FF1FF8;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: DeepSkyBlue;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-fourteen .linkflairlabel {
+    background-color: #FFA200;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: DarkGoldenRod;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-sixteen .linkflairlabel {
+    background-color: #62e18d;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: Green;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-seventeen .linkflairlabel {
+    background-color: #f3f44a;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-eighteen .linkflairlabel {
+    background-color: lightblue;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: purple;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-nineteen .linkflairlabel {
+    background-color: orange;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: yellow;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twenty .linkflairlabel {
+    background-color: lightgreen;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: green;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentyone .linkflairlabel {
+    background-color: lightblue;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: purple;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentytwo .linkflairlabel {
+    background-color: pink;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: DarkMagenta;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentythree .linkflairlabel {
+    background-color: lightblue;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border-color: DarkMagenta;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentyfour .linkflairlabel {
+    background-color: lightcyan;
+    font-size: 11px;
+    font-weight: bold;
+    color: purple;
+    border-color: lightcoral;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentyfive .linkflairlabel {
+    background-color: palegreen;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: lightcoral;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentysix .linkflairlabel {
+    background-color: palegreen;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: lightblue;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentyseven .linkflairlabel {
+    background-color: cyan;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: crimson;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentyeight .linkflairlabel {
+    background-color: darkturquoise;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: DodgerBlue;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-twentynine .linkflairlabel {
+    background-color: khaki;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: gold;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-thirty .linkflairlabel {
+    background-color: lawngreen;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: lightcoral;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-thirtyone .linkflairlabel {
+    background-color: darkturquoise;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: lightcoral;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-thirtytwo .linkflairlabel {
+    background-color: yellow;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 3px
+}
+
+.linkflair-thirtythree .linkflairlabel {
+    background-color: light green;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 3px
+}
