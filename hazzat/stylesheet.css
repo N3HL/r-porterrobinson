@@ -226,9 +226,10 @@ a img {
     background: transparent url(%%active-element%%) no-repeat right!important
 }
 .res .commentarea .RES-keyNav-activeElement .md {
-    background-color: black!important;
-    border: solid 1px #eb466c;
-    padding: 5px;
+    background-color: black !important;
+    border: 1px solid #eb466c;
+    border-radius: 5px;
+    padding: 10px;
 }
 .comment {
     background-color: black !important;
@@ -792,7 +793,7 @@ input[name=uh][value^="z"] ~ a:after {
 .side .md ol > li > p {
     text-align: left !important;
 }
-.RES-keyNav-activeElement form, .may-blank-within {
+body .RES-keyNav-activeElement form, body .RES-keyNav-activeElement .may-blank-within {
     background: transparent !important;
 }
 .single-page .stickied.link {
