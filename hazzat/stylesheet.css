@@ -1142,3 +1142,185 @@ a.author[href*="/user/N3HL"], a.author[href*="/user/jdbender66"], a.author[href*
     font-weight: bold;
     text-shadow: 0 0 .7em #FF00FF;
 }
+
+/* those users who make this sub great with their content */
+
+a.author[href*="/user/VDGMusix"], a.author[href*="/user/Huntroxic"], a.author[href*="/user/lost_dexter"], a.author[href*="/user/RexSpoof"] {
+    color: #8f60ff;
+    font-weight: bold;
+    text-shadow: 0 0 .7em #7d45ff;
+}
+
+/* the one and only PRL */
+
+a.author[href*="/user/porterrobinsonlive"] {
+    color: #ffb300;
+    font-weight: bold;
+    text-shadow: 0 0 .7em #b78000;
+}
+
+/* Porter himself - one can dream, right? */
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(47px, 9999px, 24px, 0);
+  }
+  5% {
+    clip: rect(29px, 9999px, 26px, 0);
+  }
+  10% {
+    clip: rect(13px, 9999px, 68px, 0);
+  }
+  15% {
+    clip: rect(65px, 9999px, 55px, 0);
+  }
+  20% {
+    clip: rect(35px, 9999px, 15px, 0);
+  }
+  25% {
+    clip: rect(91px, 9999px, 31px, 0);
+  }
+  30% {
+    clip: rect(8px, 9999px, 41px, 0);
+  }
+  35% {
+    clip: rect(67px, 9999px, 69px, 0);
+  }
+  40% {
+    clip: rect(57px, 9999px, 98px, 0);
+  }
+  45% {
+    clip: rect(22px, 9999px, 81px, 0);
+  }
+  50% {
+    clip: rect(34px, 9999px, 11px, 0);
+  }
+  55% {
+    clip: rect(85px, 9999px, 88px, 0);
+  }
+  60% {
+    clip: rect(79px, 9999px, 20px, 0);
+  }
+  65% {
+    clip: rect(42px, 9999px, 48px, 0);
+  }
+  70% {
+    clip: rect(97px, 9999px, 17px, 0);
+  }
+  75% {
+    clip: rect(32px, 9999px, 17px, 0);
+  }
+  80% {
+    clip: rect(26px, 9999px, 81px, 0);
+  }
+  85% {
+    clip: rect(96px, 9999px, 69px, 0);
+  }
+  90% {
+    clip: rect(55px, 9999px, 13px, 0);
+  }
+  95% {
+    clip: rect(26px, 9999px, 11px, 0);
+  }
+  100% {
+    clip: rect(87px, 9999px, 97px, 0);
+  }
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(48px, 9999px, 20px, 0);
+  }
+  5% {
+    clip: rect(73px, 9999px, 12px, 0);
+  }
+  10% {
+    clip: rect(22px, 9999px, 53px, 0);
+  }
+  15% {
+    clip: rect(1px, 9999px, 19px, 0);
+  }
+  20% {
+    clip: rect(62px, 9999px, 64px, 0);
+  }
+  25% {
+    clip: rect(100px, 9999px, 53px, 0);
+  }
+  30% {
+    clip: rect(62px, 9999px, 27px, 0);
+  }
+  35% {
+    clip: rect(94px, 9999px, 40px, 0);
+  }
+  40% {
+    clip: rect(75px, 9999px, 40px, 0);
+  }
+  45% {
+    clip: rect(65px, 9999px, 13px, 0);
+  }
+  50% {
+    clip: rect(100px, 9999px, 32px, 0);
+  }
+  55% {
+    clip: rect(68px, 9999px, 85px, 0);
+  }
+  60% {
+    clip: rect(29px, 9999px, 61px, 0);
+  }
+  65% {
+    clip: rect(99px, 9999px, 100px, 0);
+  }
+  70% {
+    clip: rect(80px, 9999px, 64px, 0);
+  }
+  75% {
+    clip: rect(85px, 9999px, 57px, 0);
+  }
+  80% {
+    clip: rect(76px, 9999px, 17px, 0);
+  }
+  85% {
+    clip: rect(31px, 9999px, 52px, 0);
+  }
+  90% {
+    clip: rect(58px, 9999px, 14px, 0);
+  }
+  95% {
+    clip: rect(11px, 9999px, 24px, 0);
+  }
+  100% {
+    clip: rect(56px, 9999px, 58px, 0);
+  }
+}
+
+a.author[href*="/user/porter_robinson"]:before {
+  content: "porter_robinson";
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: #fff;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+a.author[href*="/user/porter_robinson"] {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative !important;
+  text-shadow: 0 0 .7em #fff;
+}
+
+a.author[href*="/user/porter_robinson"] {
+  content: "porter_robinson";
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
