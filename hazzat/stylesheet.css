@@ -731,28 +731,28 @@ input[name=uh][value^="r"] ~ a:after {
     content: url(%%porter-design-r%%)
 }
 input[name=uh][value^="s"] ~ a:after {
-    content: url(%%porter-design-1%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="t"] ~ a:after {
-    content: url(%%porter-design-2%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="u"] ~ a:after {
-    content: url(%%porter-design-3%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="v"] ~ a:after {
-    content: url(%%porter-design-4%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="w"] ~ a:after {
-    content: url(%%porter-design-5%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="x"] ~ a:after {
-    content: url(%%porter-design-6%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="y"] ~ a:after {
-    content: url(%%porter-design-7%%)
+    content: url(%%shelter-design%%)
 }
 input[name=uh][value^="z"] ~ a:after {
-    content: url(%%porter-design-8%%)
+    content: url(%%shelter-design%%)
 }
 .user .login-required:after {
     content: url(%%porter-design-0%%)
@@ -1145,7 +1145,7 @@ a.author[href*="/user/N3HL"], a.author[href*="/user/jdbender66"], a.author[href*
 
 /* those users who make this sub great with their content */
 
-a.author[href*="/user/VDGMusix"], a.author[href*="/user/Huntroxic"], a.author[href*="/user/lost_dexter"], a.author[href*="/user/RexSpoof"] {
+a.author[href*="/user/VDGMusix"], a.author[href*="/user/Huntroxic"], a.author[href*="/user/lostdexter"], a.author[href*="/user/RexSpoof"] {
     color: #8f60ff;
     font-weight: bold;
     text-shadow: 0 0 .7em #7d45ff;
