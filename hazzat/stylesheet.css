@@ -1135,9 +1135,19 @@ body .RES-keyNav-activeElement form, body .RES-keyNav-activeElement .may-blank-w
     border-radius: 3px
 }
 
+.linkflair-thirtyfour .linkflairlabel {
+    background-color: #0ADA9E;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    border-color: #25434E;
+    border-width: 3px;
+    border-radius: 3px
+}
+
 /* moderators */
 
-a.author[href*="/user/N3HL"], a.author[href*="/user/jdbender66"], a.author[href*="/user/jamesanator9"] {
+a.author[href*="/user/N3HL"], a.author[href*="/user/jdbender66"], a.author[href*="/user/jamesanator9"], a.author[href*="/user/Jankelope"], a.author[href*="/user/leosanchez16"] {
     color: #EB466C;
     font-weight: bold;
     text-shadow: 0 0 .7em #FF00FF;
