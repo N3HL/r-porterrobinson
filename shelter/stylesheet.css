@@ -226,6 +226,10 @@ div.titlebox span.number:after {content: " are not alone";}
 
     /* Editor */
 
+    .link .md :not(pre) > code {
+        background-color: rgba(132,132,132,0.5);;
+    } 
+
     .md pre code {
         background-color: rgba(134,134,134,0.15);
     }
@@ -572,6 +576,16 @@ div.titlebox span.number:after {content: " are not alone";}
     }
 
     .linkflair-thirtyfour .linkflairlabel {
+        background-color: #0ADA9E;
+        font-size: 11px;
+        font-weight: bold;
+        color: black;
+        border-color: #25434E;
+        border-width: 3px;
+        border-radius: 3px
+    }
+
+    .linkflair-shelter-spoiler .linkflairlabel {
         background-color: #0ADA9E;
         font-size: 11px;
         font-weight: bold;
