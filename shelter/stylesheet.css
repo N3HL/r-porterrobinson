@@ -953,7 +953,7 @@ div.titlebox span.number:after {content: " are not alone";}
 	.res-commentBoxes .comment .comment .comment .comment .comment,
 	.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
 	.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment  {
-		background-color: rgba(255,255,255,0.1)
+		background-color: rgba(255,255,255,0.1) !important
 	}
 
 	/* #endregion */
