@@ -562,8 +562,42 @@ div.blueButton {
 
 /* #region ekowraith */
 
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(2deg);
+    }
+
+    40% {
+        transform: rotate(-2deg);
+    }
+
+    60% {
+        transform: rotate(1deg);
+    }
+
+    80% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 body {
     background-color: #000;
+}
+
+:before, :after {
+    text-transform: none !important;
+}
+
+.content {
+    margin-top: 100px;
 }
 
 #sr-header-area, #header-bottom-right, #userbarToggle {
@@ -578,19 +612,119 @@ body {
     display: none;
 }
 
-.input[name=uh] ~ a:before {
+/* #region Random old tweets */
+
+input[name=uh] ~ a:before {
     position: absolute !important;
     top: -25px !important;
     right: 0 !important;
     font-size: 12px !important;
     color: #efefef !important;
     text-align: right !important;
-    background: transparent !important;
     text-decoration: none !important;
+    background: transparent !important;
     pointer-events: none !important;
     padding: 2px !important;
     white-space: nowrap !important;
 }
+
+input[name="uh"][value^="a"] ~ a:before, input[name="uh"][value^="y"] ~ a:before {
+    content: "Daemon: After intense thinking, P. Robinson > Ekowraith";
+}
+
+input[name="uh"][value^="b"] ~ a:before, input[name="uh"][value^="z"] ~ a:before {
+    content: "Daemon: #12 BeatPorter";
+}
+
+input[name="uh"][value^="c"] ~ a:before, input[name="uh"][value^="0"] ~ a:before {
+    content: "Making house is easier and more fun than making handsup, but I'm always less proud of the result. Handsup: 40 hours to make, House: 10hrs";
+}
+
+input[name="uh"][value^="d"] ~ a:before, input[name="uh"][value^="1"] ~ a:before {
+    content: "I feel bad for electronic musicians trying to go hiphop/pop. Like the lottery, you can earn a lot with it, but it's unlikely.";
+}
+
+input[name="uh"][value^="e"] ~ a:before, input[name="uh"][value^="2"] ~ a:before {
+    content: "hahahahah! RT @DaemonMusic ROBin brandes, ROB swire, porter ROBinson. Coinidence, Don't think so.";
+}
+
+input[name="uh"][value^="f"] ~ a:before, input[name="uh"][value^="3"] ~ a:before {
+    content: "wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub, wub";
+}
+
+input[name="uh"][value^="g"] ~ a:before, input[name="uh"][value^="4"] ~ a:before {
+    content: "good news, one of my songs on Youtube has 100,000 views, the bad news: whoever uploaded it used an image of an image of an anime bikini 10-year-old";
+}
+
+input[name="uh"][value^="h"] ~ a:before, input[name="uh"][value^="5"] ~ a:before {
+    content: "You know your genre's dead when the most exciting thing to happen in 3 years was some remix packs leaking.";
+}
+
+input[name="uh"][value^="i"] ~ a:before, input[name="uh"][value^="6"] ~ a:before {
+    content: "This Is Between You And Me Now You Shitty Meat.";
+}
+
+input[name="uh"][value^="j"] ~ a:before, input[name="uh"][value^="7"] ~ a:before {
+    content: "You wanna have sex with a real famous person? That's sick and wrong dude, ask my anime girlfriend.";
+}
+
+input[name="uh"][value^="k"] ~ a:before, input[name="uh"][value^="8"] ~ a:before {
+    content: "I should hire someone to disable my twitter account whenever i get nostalgic about hands up music.";
+}
+
+input[name="uh"][value^="l"] ~ a:before, input[name="uh"][value^="9"] ~ a:before {
+    content: 'I just found out that "No Stress" is sung by a man. My world is over...';
+}
+
+input[name="uh"][value^="m"] ~ a:before {
+    content: "It's with pride I announce my intention to be Kanye West's VP. We stand on a strong platform for kinkshaming and supported immigration.";
+}
+
+input[name="uh"][value^="n"] ~ a:before {
+    content: "I'd suck Feed Me's dick at the drop of a hat (with $500 in it.)";
+}
+
+input[name="uh"][value^="o"] ~ a:before {
+    content: "Boys...gentlemen....don't show me pics of your dick. Not with a fox, not in a box, not anywhere at any time. No.";
+}
+
+input[name="uh"][value^="p"] ~ a:before {
+    content: "If you ever shot Drake, or look like someone who shot drake, or look like someone who looks like someone who shot Drake...we ain't friends.";
+}
+
+input[name="uh"][value^="q"] ~ a:before {
+    content: "Its 'unsafe' to put a whole ham in my ass but if I have it cubed first then the same volume goes in but with 'safety'.";
+}
+
+input[name="uh"][value^="r"] ~ a:before {
+    content: "why are the top downloads charts on Beatport always such pretentious bullshit?";
+}
+
+input[name="uh"][value^="s"] ~ a:before {
+    content: "Today was a big day for milestones - I came to have exactly as many followers as I have tweets, and I got my thousandth fan on MySpace. Woop";
+}
+
+input[name="uh"][value^="t"] ~ a:before {
+    content: "I have exactly as many tweets as I have followers. That rules.";
+}
+
+input[name="uh"][value^="u"] ~ a:before {
+    content: "looking back at older releases, missing when songs 3 or 4 hands up remixes. celebrate the summer: lacuna, manian, mayth, verano, off cast";
+}
+
+input[name="uh"][value^="v"] ~ a:before {
+    content: "RT @explodingbears: @souljaboytellem I turned my swag on and now I can't turn it off help my swag is stuck on";
+}
+
+input[name="uh"][value^="w"] ~ a:before {
+    content: "RT @wolfganggartner: wish I could go into the future and hear the music I make. You spend so long on a song and you can't hear it object ...";
+}
+
+input[name="uh"][value^="x"] ~ a:before {
+    content: "I think a good way of producing singles is to make one commercial mix, and one mix that's exactly how you like it.";
+}
+
+/* #endregion */
 
 #header {
     height: 320px;
@@ -599,16 +733,35 @@ body {
 
 #header-img {
     width: 50px;
-    height: 50px;
+    height: 45px;
     margin-left: 20px;
     border: none;
 }
 
 .redditname > a {
-    
+    display: none;
 }
 
-.side::before {
+.redditname:after {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    content: "/r/ekowraith";
+}
+
+.promoted * {
+    margin-top: 0.5%
+}
+
+.promoted > .midcol {
+    margin-left: 1.5%;
+}
+
+.sponsored-indicator.rank {
+    display: none;
+}
+
+.side:before {
     display: block;
     height: 300px;
     background: url(%%ekowraith-booming-track%%) no-repeat center center / contain;
@@ -617,6 +770,40 @@ body {
 
 .morelink a {
     background-color: #af0404;
+}
+
+.titlebox .md h1 {
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    right: 365px;
+    background: #b2525d;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titlebox .md h1 > a {
+    display: inline-block;
+    font-size: 30px;
+    animation: swing 1s linear infinite;
+    transform-origin: 50% 0%;
+}
+
+.tabmenu li a {
+    background-color: #9a191b;
+}
+
+.thumbnail.self {
+    background-color: #cb6565;
+}
+
+.thumbnail.self:after {
+    content: "EKO";
 }
 
 .arrow.down:hover:after {
@@ -632,12 +819,24 @@ body {
     border-radius: 3px;
 }
 
-div.titlebox span.number:after {
-    content: " readers";
+.titlebox .subscribers .number:after {
+    content: " anime girls";
 }
 
 .titlebox .users-online .number:after {
-    content: " currently online";
+    content: " feeling nostalgic";
+}
+
+.titlebox .subscribers .word, .titlebox .users-online .word {
+    display: none;
+}
+
+.footer-parent {
+    background: url(%%young-porter%%) repeat-x center bottom / 10% 80%;
+}
+
+.debuginfo {
+    display: none;
 }
 
 /* #endregion */
